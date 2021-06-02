@@ -1,2 +1,2 @@
 # Proyecto para CoderHouse 
-# Aun no tengo pensado el nombre de mi E-commerce. 
+# Nombre del E-commerce es Come From.
