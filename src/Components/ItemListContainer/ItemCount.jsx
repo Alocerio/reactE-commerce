@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
-const FnContador = ({stock, initial}) => {
+const ItemCount = ({stock, initial}) => {
 
     const [contador, setContador] = useState(Number(initial));
 
@@ -37,4 +37,4 @@ const FnContador = ({stock, initial}) => {
 
 };
 
-export default FnContador;
+export default ItemCount;
