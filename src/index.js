@@ -4,13 +4,15 @@ import './index.css';
 
 import reportWebVitals from './reportWebVitals';
 import Navigation from './Components/Navigation';
-import ItemListContainer from './Components/ItemListContainer/ItemListContainer'
+import ItemListContainer from './Components/ItemListContainer/ItemListContainer';
+
 
 ReactDOM.render(
   <React.StrictMode>
     
     <Navigation />
-    <ItemListContainer />
+    <ItemListContainer  />
+ 
   </React.StrictMode>,
   document.getElementById('root')
 );
