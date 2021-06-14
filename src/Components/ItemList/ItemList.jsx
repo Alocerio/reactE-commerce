@@ -29,6 +29,23 @@ const objetos = [
 
 ]
 
+
+
+const task = new Promise((resolve, reject) =>{
+
+    console.log('Esperando 3 segundos...');
+    setTimeout(() =>{
+        resolve(objetos);
+    }, 3000); 
+});
+
+task.then(data => {
+    data.forEach((producto) => {
+        console.log(producto);
+    });
+  
+})
+
 function ItemList() {
     console.log(objetos);
     return(

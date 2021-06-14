@@ -1,6 +1,10 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
+
+
+
 function Item({name, imageSource}) {
     return(
         <div className="card text-center bg-dark">
