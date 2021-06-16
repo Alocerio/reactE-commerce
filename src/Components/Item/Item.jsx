@@ -2,12 +2,12 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-
-
-
 function Item({name, imageSource}) {
+
+ 
+
     return(
-        <div className="card text-center bg-dark">
+        <div className="card text-center bgGradient" >
                <img className="img-fluid" src={imageSource} alt="" />
             
             <div className="card-body text-white">
@@ -20,10 +20,7 @@ function Item({name, imageSource}) {
                     Click to more
                 </a>
             </div>
-            
         </div>
     );
 }
-
-
 export default Item;

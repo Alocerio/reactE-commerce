@@ -16,7 +16,7 @@ const fontColor= {
   return (
     <div className="App">
         
-        <Navbar className="bgGradient px-4"  expand="lg">
+        <Navbar className="bgGradient px-4"   expand="lg">
         <Nav.Link><Bag  className="px-auto" style={fontColor}  size={30} /></Nav.Link>
         <CartWidget />
  

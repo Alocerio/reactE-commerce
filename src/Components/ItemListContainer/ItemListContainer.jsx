@@ -8,7 +8,7 @@ import ItemList from '/Users/leandrobordon/Documents/React Course/clase1/e-comme
 function ItemListContainer() {
     return  (
       <div>      
-      <h1 className="mt-4 text-center">Aqui va un Catalogo</h1>
+     
       <ItemList/>
       
 </div>

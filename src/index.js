@@ -5,13 +5,14 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Navigation from './Components/Navigation';
 import ItemListContainer from './Components/ItemListContainer/ItemListContainer';
-
+import ItemDetailContainer from './Components/ItemDetailContainer/ItemDetailContainer.jsx';
 
 ReactDOM.render(
   <React.StrictMode>
     
     <Navigation />
     <ItemListContainer  />
+   <ItemDetailContainer/>
  
   </React.StrictMode>,
   document.getElementById('root')
