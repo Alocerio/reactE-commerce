@@ -1,19 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-
 import reportWebVitals from './reportWebVitals';
-import Navigation from './Components/Navigation';
-import ItemListContainer from './Components/ItemListContainer/ItemListContainer';
-import ItemDetailContainer from './Components/ItemDetailContainer/ItemDetailContainer.jsx';
-
+import App from './Components/App';
 ReactDOM.render(
   <React.StrictMode>
     
-    <Navigation />
-    <ItemListContainer  />
-   <ItemDetailContainer/>
- 
+   <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );

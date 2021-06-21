@@ -21,7 +21,7 @@ const ItemCount = ({stock, initial}) => {
     }
 
     return (
-        <div className='container card'>
+        <div className='container card bg-dark'>
             <h3 >Producto Random</h3>
 
             <button 

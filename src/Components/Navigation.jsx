@@ -1,7 +1,7 @@
 import React from 'react';
 import './Navigation.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import { NavLink } from 'react-router-dom';
 import { Navbar, Nav, NavDropdown  } from 'react-bootstrap';
 import { Bag } from 'react-bootstrap-icons';
 
@@ -29,7 +29,7 @@ const fontColor= {
       navbarScroll
     >
 
-  <Nav.Link href="#action1">Shop</Nav.Link>
+  <NavLink activeClassName='selected' className='nav-link' exact to={'/category/:id'}>Shop</NavLink>
     <Nav.Link href="#action2">Contact</Nav.Link>
     <NavDropdown title="QA" id="navbarScrollingDropdown">
       <NavDropdown.Item  href="#action3">Delivery tracking</NavDropdown.Item>
